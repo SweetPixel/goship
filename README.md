@@ -90,3 +90,5 @@ notifications:
     - secret: my-secret
     - sevabot_address: http://localhost:3333/msg/
 ```
+
+You can find the chat ID through sevabot's web interface.
