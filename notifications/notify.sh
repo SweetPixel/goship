@@ -40,8 +40,6 @@ then
      exit 1
 fi
 
-GOSHIP_URL=http://hi.com
-
 # Sign the message with MD5
 md5=`echo -n "$CHAT$MESSAGE$SECRET" | md5 -r`
 
